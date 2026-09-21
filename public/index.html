@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Apresentação Exclusiva</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- GLightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: { DEFAULT: '#D4AF37', light: '#F3E5AB', dark: '#AA820A' },
+                        luxury: { bg: '#0F0F11', card: '#18181C', border: '#2A2A30' }
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0F0F11; color: #E4E4E7; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-panel { background: rgba(24, 24, 28, 0.75); backdrop-filter: blur(12px); border: 1px solid rgba(212, 175, 55, 0.15); }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold selection:text-black">
+
+    <!-- HERO BANNER -->
+    <section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="" alt="" class="w-full h-full object-cover scale-105 transition-transform duration-1000">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0F0F11] via-black/40 to-black/60"></div>
+        </div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center space-y-6">
+            <span class="inline-block px-4 py-1.5 rounded-full text-xs uppercase tracking-widest bg-gold/10 text-gold border border-gold/30 font-semibold">
+                 • 
+            </span>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-serif text-white tracking-wide font-normal leading-tight">
+                
+            </h1>
+            <p class="text-lg md:text-xl text-zinc-300 max-w-2xl mx-auto font-light">
+                
+            </p>
+            <div class="pt-4">
+                <a href="#agendamento" class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gold hover:bg-gold-dark text-black font-semibold text-sm tracking-wider uppercase transition-all duration-300 shadow-lg shadow-gold/20 hover:scale-105">
+                    Agendar Apresentação VIP
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-zinc-400 animate-bounce">
+            <a href="#especificacoes" aria-label="Rolar para baixo">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- GRID DE ESPECIFICAÇÕES -->
+    <section id="especificacoes" class="py-16 border-b border-luxury-border">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-6 rounded-2xl glass-panel">
+                    <span class="block text-xs uppercase text-zinc-400 font-medium">Área Útil</span>
+                    <span class="text-2xl md:text-3xl font-serif text-gold font-bold mt-1 block"> m²</span>
+                </div>
+                <div class="p-6 rounded-2xl glass-panel">
+                    <span class="block text-xs uppercase text-zinc-400 font-medium">Suítes</span>
+                    <span class="text-2xl md:text-3xl font-serif text-gold font-bold mt-1 block"></span>
+                </div>
+                <div class="p-6 rounded-2xl glass-panel">
+                    <span class="block text-xs uppercase text-zinc-400 font-medium">Vagas Cobertas</span>
+                    <span class="text-2xl md:text-3xl font-serif text-gold font-bold mt-1 block"></span>
+                </div>
+                <div class="p-6 rounded-2xl glass-panel">
+                    <span class="block text-xs uppercase text-zinc-400 font-medium">Investimento</span>
+                    <span class="text-2xl md:text-3xl font-serif text-gold font-bold mt-1 block">R$ </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE O IMOVEL -->
+    <section class="py-20 max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-xs uppercase tracking-widest text-gold mb-3">Conceito Arquitetônico</h2>
+        <h3 class="text-3xl md:text-4xl font-serif text-white mb-8">Exclusividade em Cada Detalhe</h3>
+        <p class="text-zinc-300 leading-relaxed text-lg font-light">
+            
+        </p>
+    </section>
+
+    <!-- GALERIA DE FOTOS (LIGHTBOX) -->
+    <section class="py-16 bg-black/40">
+        <div class="max-w-6xl mx-auto px-6 space-y-6">
+            <div class="flex justify-between items-end mb-8">
+                <div>
+                    <h2 class="text-xs uppercase tracking-widest text-gold">Galeria de Imagens</h2>
+                    <h3 class="text-2xl md:text-3xl font-serif text-white">Ambientes & Acabamentos</h3>
+                </div>
+            </div>
+
+            <!-- Grid Dinâmico de Fotos -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS / AMENITIES -->
+    <section class="py-20 max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-xs uppercase tracking-widest text-gold">Diferenciais Exclusivos</h2>
+            <h3 class="text-3xl font-serif text-white mt-2">Atributos de Alto Padrão</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+        </div>
+    </section>
+
+    <!-- AGENDAMENTO / CTA CORRETOR -->
+    <section id="agendamento" class="py-20 bg-gradient-to-b from-transparent to-black border-t border-luxury-border">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="p-8 md:p-12 rounded-3xl glass-panel text-center space-y-6 border border-gold/30">
+                <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-gold shadow-md shadow-gold/20">
+                    <img src="" alt="" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-serif text-white"></h3>
+                    <p class="text-gold text-sm tracking-wide uppercase mt-1"></p>
+                </div>
+                <p class="text-zinc-300 text-sm max-w-lg mx-auto">
+                    Apresentações exclusivas com agendamento prévio. Entre em contato diretamente para solicitar o dossier completo e verificar a disponibilidade de agenda.
+                </p>
+                <div class="pt-4">
+                    <a href="https://wa.me/?text=Olá,%20gostaria%20de%20agendar%20uma%20apresentação%20privativa%20do%20imóvel%20" target="_blank" class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-medium text-sm tracking-wider uppercase transition-all duration-300 shadow-lg shadow-emerald-900/30 hover:scale-105">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l.999 1.587-1.052 3.84 3.796-.995 1.000.235z"/></svg>
+                        Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 text-center text-xs text-zinc-600 border-t border-luxury-border">
+        <p>© Apresentação de Imóvel de Alto Padrão. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- GLightbox JS -->
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({ touchNavigation: true, loop: true });
+    </script>
+</body>
+</html>
