@@ -1,0 +1,41 @@
+{
+  "slug": "mansao-alphaville-01",
+  "titulo": "Residência Contemporânea Alphaville",
+  "subtitulo": "Projeto assinado com vista definitiva para a reserva e automação integral.",
+  "categoria": "Mansão Neoclássica",
+  "localizacao_curta": "Alphaville, São Paulo",
+  "foto_hero": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80",
+  "metragem": 850,
+  "suites": 5,
+  "vagas": 6,
+  "valor": "12.800.000",
+  "descricao_detalhada": "Esta obra-prima arquitetônica combina linhas contemporâneas com acabamentos em mármore importado, marcenaria sob medida e integração completa entre os ambientes sociais e a área de lazer externa com piscina aquecida de borda infinita.",
+  "corretor": {
+    "nome": "Carlos Roberto",
+    "cargo": "Consultor Imobiliário Private",
+    "foto": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+    "whatsapp": "5516999999999"
+  },
+  "fotos": [
+    {
+      "url_full": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+      "url_thumb": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "legenda": "Fachada Principal"
+    },
+    {
+      "url_full": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
+      "url_thumb": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80",
+      "legenda": "Área Gourmet"
+    }
+  ],
+  "diferenciais": [
+    {
+      "titulo": "Automação Lutron",
+      "descricao": "Controle total de iluminação, climatização e áudio por voz ou smartphone."
+    },
+    {
+      "titulo": "Adega Climatizada",
+      "descricao": "Espaço projetado para até 500 garrafas com controle rigoroso de umidade."
+    }
+  ]
+}
