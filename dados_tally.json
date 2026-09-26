@@ -1,0 +1,31 @@
+{
+  "Título do imóvel": "Casa de Alto Padrão - Alpha",
+  "Identificador da URL (ex: casa-alphaville-01)": "casa-alphaville-01",
+  "Local": "Ribeirão Preto - SP",
+  "Valor": "R$ 1.200.000",
+  "Condomínio": "R$ 850",
+  "IPTU anual": "R$ 2.400",
+  "Área construída": "280m²",
+  "Área do terreno": "450m²",
+  "Descrição do imóvel": "Excelente casa térrea com acabamento fino, iluminação em LED, ampla área de lazer e integração de ambientes.",
+  "Descrição do condomínio": "Condomínio fechado com portaria 24h, ronda armada, quadras de tênis e área verde preservada.",
+  "Outras informações": "Estuda permuta por imóvel de menor valor.",
+  "Características do imóvel - digite um por linha (ex: 3 Dormitórios, 1 Closet, 1 Lavabo)": "3 Suítes amplas\n1 Closet master\nÁrea gourmet com churrasqueira\nPiscina aquecida\nGaragem para 4 carros",
+  "Características do condomínio - digite um por linha (ex: Condomínio fechado, Quadra de areia)": "Portaria 24 horas\nQuadra de tênis\nPlayground infantil\nCampo de futebol",
+  "Foto principal": [
+    {
+      "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "Galeria de fotos": [
+    {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
