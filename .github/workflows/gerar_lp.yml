@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +29,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install jinja2
 
-      - name: Salvar payload do Tally (se enviado via webhook)
+      - name: Atualizar dados_tally.json se vier via Webhook
+        if: github.event_name == 'repository_dispatch'
         run: |
           echo '${{ toJson(github.event.client_payload) }}' > dados_tally.json
 
